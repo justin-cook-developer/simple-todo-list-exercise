@@ -1,0 +1,88 @@
+:root {
+  --my-gray: rgb(165, 164, 164);
+}
+
+body {
+  background-color: rgb(252, 251, 251);
+}
+
+header {
+  width: 100%;
+  background-color: var(--my-gray);
+}
+
+nav {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  padding-left: 1%;
+  text-align: left;
+  flex-basis: 50%;
+  font-weight: normal;
+}
+
+nav ul {
+  padding-right: 3%;
+  flex-basis: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  display: block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#home-link {
+  text-decoration: underline;
+}
+
+main {
+  margin-top: 4%;
+}
+
+button {
+  display: block;
+  margin: auto;
+  padding: 0.33% 1.33%;
+  font-weight: bold;
+  background-color: rgb(52, 121, 67);
+  color: white;
+}
+
+form {
+  margin: 3% auto;
+  display: flex;
+  justify-content: center;
+}
+
+form div {
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+}
+
+form div button {
+  padding: 3px 10px;
+}
+
+main ul {
+  list-style: none;
+  margin: 4% auto;
+}
+
+main ul li {
+  width: 30%;
+  background-color: var(--my-gray);
+  border-radius: 4px;
+  margin: 3px auto;
+  text-align: center;
+}
